@@ -5,7 +5,7 @@ Count the mass scores in fasttq files and draw statistical graphs
 + python3
 + sample fastq files
 ## Build
-in root dir
+Execute in the project root directory
 ```
 python -r ./requirements.txt
 python main.py
