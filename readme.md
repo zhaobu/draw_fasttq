@@ -1,7 +1,7 @@
 # draw_fasttq
 Count the mass scores in fasttq files and draw statistical graphs
 # Quickstart
-## Dependencies#
+## Dependencies
 + python3
 + sample fastq files
 ## Build
