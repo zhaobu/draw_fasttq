@@ -1,0 +1,15 @@
+# fastq_file: data/homework1/MGISEQ2000_PCR-free_NA12878_1_V100003043_L01_1.fq
+# 要读取的文件名
+fastq_file: data/compress/V100007471_L01_501_1.fastq
+# 生成的文件后缀
+result: result.jpg
+# 要读取的区间,二维数组,每个元素[0],元素[1]分别表示读取开始和结束,左闭右开区间
+read_line: [[0, 100], [1000, 1100],[5000,5100],[10000,10100],[1000000,1000100]]
+# 标题名称
+title_name: "quality score graph"
+# 横坐标名称
+x_name: "pos"
+# 纵坐标名称
+y_name: "quality"
+# 为true时表示求的是样本方差,样本标准差,false时表示总体方差,总体标准差
+ddof: true

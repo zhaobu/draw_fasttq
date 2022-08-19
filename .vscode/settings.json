@@ -1,0 +1,39 @@
+{
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "python.testing.autoTestDiscoverOnSaveEnabled": true, //设置测试用例自动发现，对于启用 pytest 的情况来说，所有的 "test_*.py" 都会被标记为测试用例。
+    "python.testing.pytestArgs": [
+        ".",
+        "-v", //sets default verbosity. Remove this argument for simpler output.
+        "-s",
+    ],
+    "python.analysis.autoImportCompletions": true,
+    "python.languageServer": "Pylance",
+    "python.formatting.provider": "yapf",
+    "python.envFile": "${workspaceFolder}/.env",
+    "python.analysis.autoSearchPaths": true,
+    // 设置终端中运行python的环境变量
+    "terminal.integrated.env.linux": {
+        "PYTHONPATH": "${workspaceFolder}:${fileDirname}",
+    },
+    // yapf
+    "python.formatting.yapfArgs": [
+        "--style",
+        "{column_limit: 200}"
+    ],
+    // pylint
+    // "python.linting.pylintEnabled": true,
+    // flake8
+    "python.linting.enabled": true,
+    "files.associations": {
+        "type_traits": "cpp",
+        "ostream": "cpp"
+    },
+    // "python.testing.cwd": "${fileDirname}",
+    // "python.linting.cwd": "${fileDirname}",
+    "terminal.integrated.cwd": "${fileDirname}",
+    // "python.linting.flake8Enabled": true,
+    // "python.linting.flake8Args": [
+    //     "--max-line-length=200"
+    // ],
+}

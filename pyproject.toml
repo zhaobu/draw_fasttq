@@ -1,0 +1,10 @@
+# pyproject.toml
+[tool.pytest.ini_options]
+# 命令行参数
+addopts = "-v -s ."
+#控制台实时输出日志
+log_cli = "False"
+# 更改测试用例收集规则
+python_files = ["test_*", "*_test", "test*"]
+python_classes = ["Test*", "test*"]
+python_functions = ["test_*", "test*"]
