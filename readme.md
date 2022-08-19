@@ -19,3 +19,10 @@ python main.py
 + y_name: Ordinate name
 + ddof: True means sample variance, sample standard deviation, false means population variance, population standard deviation 
 
+# result
+## 0-100
+![0-100-result](result/MGISEQ2000_PCR-free_NA12878_1_V100003043_L01_1.fq/0-100-result.jpg)
+## 1000-1100-result
+![1000-1100-result](result/MGISEQ2000_PCR-free_NA12878_1_V100003043_L01_1.fq/1000-1100-result.jpg)
+## 10000-10100-result
+![1000-1100-result](result/MGISEQ2000_PCR-free_NA12878_1_V100003043_L01_1.fq/10000-10100-result.jpg)
